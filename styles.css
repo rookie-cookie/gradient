@@ -1,27 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900|Open+Sans:400,800|Raleway:400,800');
+
 body{
-  font: 'Raleway', sans-serif;
   color: rgba(0,0,0,0.5);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5em;
   top: 15%;
-  /* gradient syntax */
-  background: linear-Gradient(to right, red, yellow);
+  background: #fefefe;
 }
 
 h1{
-  font: 600 3.5em 'Raleway', sans-serif;
+  font: 900 3rem 'Montserrat', sans-serif;
   color: rgba(0,0,0,0.5);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.5em;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+h2{
+  font-family: 'Open sans', sans-serif;
+  color: #FF5C5C;
+}
+input{
+  margin-bottom: 30px;
+  padding: 0;
+  border: none;
+  height: 50px;
+  width: 80px;
 }
 
+.gradient-card{
+  /* gradient syntax */
+  background: linear-Gradient(to right, #f7baf7, #94fff4);
+  height: 300px;
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #eee;
+}
+
+.gradient-text{
+  position: absolute;
+  bottom: 0px;
+  background: white;
+  width: 400px;
+  height: 100px;
+  border-radius: 0 0 20px 20px;
+  z-index: 10;
+  font-family: Raleway, sans-serif;
+}
+
+.color1_hex{color: #f7baf7;}
+.color2_hex{color: #94fff4;}
+
 h3{
-  font: 900 1em 'Raleway', sans-serif;
+  /* font: 900 1em 'Raleway', sans-serif; */
+  font-family: Raleway, sans-serif;
   color: rgba(0,0,0,0.5);
   text-align: center;
   text-transform: none;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.1em;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.code{
+  font-weight: 800;
 }

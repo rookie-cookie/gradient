@@ -8,12 +8,27 @@
 
   </head>
   <body id="gradient">
-    <h1>Background Generator</h1>
-    <input class="color1" type="color" name="color1" value="#00ff00">
-    <input class="color2" type="color" name="color1" value="#ff0000">
-    <h2>Current CSS Background</h2>
-    <h3></h3>
+    <h1>Background <br> Generator</h1>
+    <h2>Color Picker</h2>
+    <input class="color1" type="color" name="color1" value="#f7baf7">
+    <input class="color2" type="color" name="color1" value="#94fff4">
 
+
+    <div class="gradient-card">
+      <div class="gradient-text">
+        <h4 class="color1_hex">#f7baf7</h4>
+        <h4 class="color2_hex">#94fff4</h4>
+      </div>
+    </div>
+
+    <h3>
+      <span class='code'>HEX: </span>
+      <span id="hex">linear-gradient(to right, #f7baf7, #94fff4);</span>
+    </h3>
+    <h3>
+      <span class='code'>RGB: </span>
+      <span id="rgb">linear-gradient(to right, rgb(247,186,247), rgb(148,255,244));</span>
+    </h3>
 
     <script type="text/javascript" src="script.js"></script>
   </body>
